@@ -39,24 +39,24 @@
 #define CONCEALED "\x1B[8m" // transparent text
 
 // Foreground (text) colors
-#define BLK   "\x1B[30m"  // black
-#define RED   "\x1B[31m"  // red
-#define GRN   "\x1B[32m"  // green
-#define YEL   "\x1B[33m"  // yellow
-#define BLU   "\x1B[34m"  // blue
-#define MAG   "\x1B[35m"  // magenta
-#define CYN   "\x1B[36m"  // cyan
-#define WHT   "\x1B[37m"  // white
+#define BLK       "\x1B[30m"  // black
+#define RED       "\x1B[31m"  // red
+#define GRN       "\x1B[32m"  // green
+#define YEL       "\x1B[33m"  // yellow
+#define BLU       "\x1B[34m"  // blue
+#define MAG       "\x1B[35m"  // magenta
+#define CYN       "\x1B[36m"  // cyan
+#define WHT       "\x1B[37m"  // white
 
 // Backgroung colors
-#define BGBLK   "\x1B[40m"
-#define BGRED   "\x1B[41m"
-#define BGGRN   "\x1B[42m"
-#define BGYEL   "\x1B[43m"
-#define BGBLU   "\x1B[44m"
-#define BGMAG   "\x1B[45m"
-#define BGCYN   "\x1B[46m"
-#define BGWHT   "\x1B[47m"
+#define BGBLK     "\x1B[40m"
+#define BGRED     "\x1B[41m"
+#define BGGRN     "\x1B[42m"
+#define BGYEL     "\x1B[43m"
+#define BGBLU     "\x1B[44m"
+#define BGMAG     "\x1B[45m"
+#define BGCYN     "\x1B[46m"
+#define BGWHT     "\x1B[47m"
 
 #endif // linux | unix | apple
 

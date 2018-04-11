@@ -28,6 +28,8 @@
 #ifndef COLORS_H
 #define COLORS_H
 
+#if defined(__linux__) || defined(__unix__) || defined(__APPLE__)
+
 #define RESET     "\x1B[0m" // reset to normal
 #define BOLD      "\x1B[1m" // bolded text
 #define DIM       "\x1B[2m" // dimmed text
@@ -55,5 +57,7 @@
 #define BGMAG   "\x1B[45m"
 #define BGCYN   "\x1B[46m"
 #define BGWHT   "\x1B[47m"
+
+#endif // linux | unix | apple
 
 #endif // COLORS_H
